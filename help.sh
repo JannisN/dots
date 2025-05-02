@@ -5,4 +5,5 @@ echo -e "\e[0mSystem update after long time: \e[3;33mpacman -Sy archlinux-keyrin
 echo -e "\e[0mShow hidden files: \e[3;33mls -a"
 echo -e "\e[0mShow file properties: \e[3;33mls -l"
 echo -e "\e[0mExecute commands in shell: \e[3;33msource \e[34m*file*"
-echo -e "\e[0m"
+echo -e "\e[0mSSH: \e[3;33mssh -p 22 jannis@192.168.1.70"
+#echo -e "\e[0m"

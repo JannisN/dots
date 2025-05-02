@@ -1,0 +1,137 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Bearded Theme Arc",
+    "editor.codeLensFontFamily": "'Source Code Pro'",
+    "editor.fontFamily": "'Source Code Pro', 'FuraMono Nerd Font Mono', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 15,
+    "editor.scrollPredominantAxis": false,
+    "editor.fastScrollSensitivity": 10,
+    "window.menuBarVisibility": "hidden",
+    "editor.cursorBlinking": "solid",
+    "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.vim",
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "latex-workshop.message.error.show": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "vscode-neovim.mouseSelectionStartVisualMode": true,
+    "workbench.iconTheme": "vscode-great-icons",
+    "d.dubCompiler": "dmd",
+    "d.stdlibPath": "auto",
+    "d.dubPath": "/usr/bin/dub",
+    "d.servedPath": "/home/jannis/.local/share/code-d/bin/serve-d",
+    "d.dcdClientPath": "/home/jannis/.local/share/code-d/bin/dcd-client",
+    "d.dcdServerPath": "/home/jannis/.local/share/code-d/bin/dcd-server",
+    "workbench.colorCustomizations": {
+        "minimap.warningHighlight": "#00000000",
+        "editorOverviewRuler.warningForeground": "#00000000",
+        "[Bearded Theme Arc]": {
+            "editor.foreground": "#ffffff",
+        },
+
+        "[Aofuji (No Italic)]": {
+            "editorBracketHighlight.foreground1": "#ff0000",
+            "editorBracketHighlight.foreground2": "#5edfff",
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Bearded Theme Arc]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "variable",
+                        "variable.language",
+                        "entity.name.type.class.js",
+                        "entity.name.variable",
+                        "support.variable.magic",
+                        "meta.method.body",
+                        "entity.name.variable",
+                        "punctuation.definition.variable",
+                        "meta.class variable.object.property",
+                        "variable.other.constant entity.name.function",
+                        "entity.name.variable.tuple-element.cs punctuation.separator.colon.cs",
+                        "meta.definition.variable.name.groovy",
+                        "meta.body.struct.cpp",
+                        "parameter.variable.function.elixir",
+                        "meta.directive.edge source.js",
+                        "meta.function.echo.edge source.js",
+                        "text.html.edge meta.function.echo.edge meta.function-call.js",
+                        "source.css variable.parameter.keyframe-list.css",
+                        "source.css meta.property-value.css",
+                        "source.css.scss meta.at-rule.keyframes.scss entity.name.function.scss",
+                        "source.css.scss meta.property-value.scss",
+                        "entity.name.variable.tuple-element",
+                        "meta.group.simple.subexpression.powershell support.variable.automatic.powershell",
+                        "support.variable.automatic.powershell",
+                        "storage.source.cmake",
+                        "entity.source.cmake"
+                    ],
+                    "settings":{
+                        "foreground":"#d3d8e1"
+                    }
+                },
+            ]
+        }
+    },
+    "editor.bracketPairColorization.enabled": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.size": "fill",
+    "editor.minimap.autohide": true,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.overviewRulerBorder": false,
+    "editor.scrollbar.vertical": "hidden",
+    "explorer.sortOrder": "type",
+    "d.smartServedUpdates": false,
+    "d.servedReleaseChannel": "nightly",
+    "d.dubArchType": "x86_64",
+    "workbench.editor.sharedViewState": true,
+    "editor.foldingStrategy": "indentation",
+    "latex-workshop.view.pdf.color.dark.pageBorderColor": "white",
+    "glsllint.languageSettings": {
+        "javascript": {
+            "parser": "TSAST"
+        },
+        "javascriptreact": {
+            "parser": "TSAST"
+        },
+        "typescript": {
+            "parser": "TSAST"
+        },
+        "typescriptreact": {
+            "parser": "TSAST"
+        },
+        "elm": {
+            "parser": "REGEX",
+            "patternStart": "\\[glsl",
+            "patternEnd": "\\|\\]"
+        }
+    },
+    "glsllint.glslangValidatorArgs": ["-C", "--target-env", "vulkan1.3", "--P", "#extension GL_GOOGLE_include_directive: enable"],
+    "glsllint.additionalStageAssociations": {
+
+    },
+    "vim.vimrc.path": "$HOME/.vimrc",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["{"],
+            "commands": [
+                "bookmarks.jumpToPrevious"
+            ]
+        },
+        {
+            "before": ["}"],
+            "commands": [
+                "bookmarks.jumpToNext"
+            ]
+        },
+        {
+            "before": ["."],
+            "commands": [
+                "workbench.action.showCommands",
+            ],
+            "silent": true
+        }
+    ],
+}
